@@ -1,5 +1,11 @@
 # Redragon HS Companion
 
+> **Nota sobre este fork:** mantenho este fork ativamente para uso próprio e da
+> comunidade Linux que enfrenta o mesmo problema de dessincronismo de volume em
+> headsets Redragon. Veja o histórico de commits deste fork para as diferenças em
+> relação ao upstream (`cristianocps/redragon-hs-companion`).
+
+
 Volume control solution for Redragon wireless headsets (H878, H848, H510, etc.) on Linux.
 
 ## Problem
@@ -26,7 +32,7 @@ Redragon wireless headsets have an issue on Linux where PipeWire only controls o
 ## Installation
 
 ```bash
-git clone https://github.com/cristianocps/redragon-hs-companion.git
+git clone https://github.com/mendsec/redragon-hs-companion.git
 cd redragon-hs-companion
 ./install.sh
 ```
